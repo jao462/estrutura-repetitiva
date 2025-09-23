@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int X, Y;
+
+    while (true) {
+        cout << "Digite dois numeros:" << endl;
+        cin >> X >> Y;
+
+        if (X == Y) {
+            break; // encerra o programa se os números forem iguais
+        } else if (X < Y) {
+            cout << "CRESCENTE!" << endl;
+        } else {
+            cout << "DECRESCENTE!" << endl;
+        }
+    }
+
+    return 0;
+}
