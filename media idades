@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int idade;
+    int soma = 0;
+    int contador = 0;
+
+    while (true) {
+        cin >> idade;
+
+        if (idade < 0) {
+            break; 
+        }
+
+        soma += idade;  
+        contador++;      
+    }
+
+    if (contador == 0) {
+        cout << "IMPOSSIVEL CALCULAR" << endl;
+    } else {
+        double media = (double)soma / contador;
+        cout.precision(2);
+        cout << fixed << media << endl;
+    }
+
+    return 0;
+}
