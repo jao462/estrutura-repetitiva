@@ -1,2 +1,3 @@
 # estrutura-repetitiva
-While
+EXERCÍCIOS REALIZADOS DA ESTRUTURA REPETITIVA(FOR)
+
